@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PDF Knowledge Library</title>
+<meta name="description" content="A searchable collection of PDF knowledge resources.">
+<link rel="alternate" type="application/json" href="library.json">
+<style>
+:root {
+  --bg: #f4f6f8;
+  --panel: #ffffff;
+  --text: #172033;
+  --muted: #667085;
+  --border: #dfe4ea;
+  --accent: #0b5cab;
+  --accent-dark: #084b8a;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: Arial, Helvetica, sans-serif;
+}
+header {
+  background: #111827;
+  color: white;
+  padding: 48px 24px;
+}
+.header-inner, main, footer {
+  max-width: 1120px;
+  margin: auto;
+}
+h1 { margin: 0 0 10px; font-size: 38px; }
+.subtitle { color: #d1d5db; font-size: 17px; }
+main { padding: 34px 24px 60px; }
+.search {
+  width: 100%;
+  padding: 17px 18px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  font-size: 17px;
+  margin-bottom: 16px;
+}
+.meta { color: var(--muted); margin-bottom: 24px; }
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 18px;
+}
+.card {
+  display: flex;
+  gap: 18px;
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 22px;
+}
+.pdf-badge {
+  flex: 0 0 auto;
+  width: 54px;
+  height: 64px;
+  border-radius: 8px;
+  background: #eef2f7;
+  display: grid;
+  place-items: center;
+  font-weight: 700;
+  font-size: 12px;
+}
+.card-body { min-width: 0; flex: 1; }
+.card h2 { margin: 0 0 8px; font-size: 19px; }
+.card p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 14px;
+  overflow-wrap: anywhere;
+}
+.actions { margin-top: 15px; display: flex; gap: 9px; flex-wrap: wrap; }
+.actions a {
+  text-decoration: none;
+  background: var(--accent);
+  color: white;
+  padding: 8px 12px;
+  border-radius: 7px;
+  font-size: 13px;
+}
+.actions a:hover { background: var(--accent-dark); }
+#empty {
+  display: none;
+  padding: 50px;
+  text-align: center;
+  color: var(--muted);
+}
+footer {
+  padding: 25px 24px 45px;
+  color: var(--muted);
+  font-size: 13px;
+}
+footer a { color: var(--accent); }
+</style>
+</head>
+<body>
+<header>
+  <div class="header-inner">
+    <h1>PDF Knowledge Library</h1>
+    <div class="subtitle">A searchable collection of PDF knowledge resources.</div>
+  </div>
+</header>
+<main>
+  <input id="search" class="search" type="search"
+         placeholder="Search documents..."
+         aria-label="Search documents">
+  <div class="meta">
+    <span id="count">1</span> documents
+    &nbsp;·&nbsp;
+    Machine-readable index:
+    <a href="library.json">library.json</a>
+    &nbsp;·&nbsp;
+    AI guide:
+    <a href="ai.txt">ai.txt</a>
+  </div>
+  <section id="grid" class="grid">
+    
+        <article class="card"
+                 data-search="cisco 360 partner program cafe   capability acceleration framework for enablement cisco 360 partner program cafe - capability acceleration framework for enablement.pdf">
+          <div class="pdf-badge">PDF</div>
+          <div class="card-body">
+            <h2>Cisco 360 Partner Program CAFE   Capability Acceleration Framework for Enablement</h2>
+            <p>Cisco 360 Partner Program CAFE - Capability Acceleration Framework for Enablement.PDF</p>
+            <div class="actions">
+              <a href="pdfs/cisco-360-partner-program-cafe-capability-acceleration-framework-for-enablement.pdf" target="_blank" rel="noopener">Open PDF</a>
+              <a href="text/cisco-360-partner-program-cafe-capability-acceleration-framework-for-enablement.txt" target="_blank" rel="noopener">Text</a>
+            </div>
+          </div>
+        </article>
+        
+  </section>
+  <div id="empty">No documents match your search.</div>
+</main>
+<footer>
+  Generated 2026-11-20T13:36:02.541010+00:00.
+  
+</footer>
+<script>
+const input = document.getElementById("search");
+const cards = [...document.querySelectorAll(".card")];
+const count = document.getElementById("count");
+const empty = document.getElementById("empty");
+
+input.addEventListener("input", () => {
+  const q = input.value.trim().toLowerCase();
+  let visible = 0;
+
+  cards.forEach(card => {
+    const match = !q || card.dataset.search.includes(q);
+    card.style.display = match ? "flex" : "none";
+    if (match) visible++;
+  });
+
+  count.textContent = visible;
+  empty.style.display = visible ? "none" : "block";
+});
+</script>
+</body>
+</html>

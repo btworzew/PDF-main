@@ -1,0 +1,20 @@
+# PDF Knowledge Library
+
+A searchable collection of PDF knowledge resources.
+
+This is a machine-readable document catalogue.
+Use library.json for structured metadata.
+Use the linked text_url for extracted document text.
+Use the linked pdf_url for the original PDF.
+
+Document count: 1
+Generated: 2026-11-20T13:36:02.541010+00:00
+
+## Documents
+
+### Cisco 360 Partner Program CAFE   Capability Acceleration Framework for Enablement
+- ID: cisco-360-partner-program-cafe-capability-acceleration-framework-for-enablement
+- Original filename: Cisco 360 Partner Program CAFE - Capability Acceleration Framework for Enablement.PDF
+- PDF: pdfs/cisco-360-partner-program-cafe-capability-acceleration-framework-for-enablement.pdf
+- Extracted text: text/cisco-360-partner-program-cafe-capability-acceleration-framework-for-enablement.txt
+- Pages: 18
