@@ -7,10 +7,17 @@ Use library.json for structured metadata.
 Use the linked text_url for extracted document text.
 Use the linked pdf_url for the original PDF.
 
-Document count: 1
-Generated: 2026-11-20T15:22:39.980596+00:00
+Document count: 2
+Generated: 2026-11-20T15:24:36.339226+00:00
 
 ## Documents
+
+### testing   Copy
+- ID: testing-copy
+- Original filename: testing - Copy.pdf
+- PDF: pdfs/testing-copy.pdf
+- Extracted text: text/testing-copy.txt
+- Pages: 1
 
 ### testing
 - ID: testing

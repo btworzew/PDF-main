@@ -7,7 +7,7 @@ START HERE: use library.json (or api/documents.json) to enumerate every document
 Do not rely on search-engine indexing or directory browsing.
 For each document, fetch its extracted text_url for searchable text; use pdf_url for the original PDF.
 
-Document count: 1
+Document count: 2
 
 ## Machine-readable resources
 - Catalogue: https://btworzew.github.io/PDF/library.json
@@ -15,6 +15,11 @@ Document count: 1
 - AI guide: https://btworzew.github.io/PDF/ai.txt
 
 ## Documents
+
+### testing   Copy
+- ID: testing-copy
+- Text: https://btworzew.github.io/PDF/text/testing-copy.txt
+- PDF: https://btworzew.github.io/PDF/pdfs/testing-copy.pdf
 
 ### testing
 - ID: testing
