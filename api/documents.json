@@ -4,59 +4,7 @@
   "description": "A searchable collection of PDF knowledge resources.",
   "owner": "Your Organization",
   "site_url": "https://btworzew.github.io/PDF",
-  "generated": "2026-11-20T15:04:25.871746+00:00",
-  "document_count": 3,
-  "documents": [
-    {
-      "id": "234test-copy",
-      "title": "234test   Copy",
-      "original_filename": "234test - Copy.PDF",
-      "source_relative_path": "234test - Copy.PDF",
-      "pdf_url": "pdfs/234test-copy.pdf",
-      "text_url": "text/234test-copy.txt",
-      "type": "PDF",
-      "pages": 18,
-      "bytes": 331262,
-      "sha256": "dfc0796dc10f4bdb939a066407ae8e14555ef94f2c21ffaab6feb5b84c042202",
-      "modified": "2026-04-10T13:07:07.599527+00:00",
-      "text_extraction": {
-        "success": true,
-        "error": null
-      }
-    },
-    {
-      "id": "234test",
-      "title": "234test",
-      "original_filename": "234test.PDF",
-      "source_relative_path": "234test.PDF",
-      "pdf_url": "pdfs/234test.pdf",
-      "text_url": "text/234test.txt",
-      "type": "PDF",
-      "pages": 18,
-      "bytes": 331262,
-      "sha256": "dfc0796dc10f4bdb939a066407ae8e14555ef94f2c21ffaab6feb5b84c042202",
-      "modified": "2026-04-10T13:07:07.599527+00:00",
-      "text_extraction": {
-        "success": true,
-        "error": null
-      }
-    },
-    {
-      "id": "cisco-360-partner-program-cafe-capability-acceleration-framework-for-enablement",
-      "title": "Cisco 360 Partner Program CAFE   Capability Acceleration Framework for Enablement",
-      "original_filename": "Cisco 360 Partner Program CAFE - Capability Acceleration Framework for Enablement.PDF",
-      "source_relative_path": "Cisco 360 Partner Program CAFE - Capability Acceleration Framework for Enablement.PDF",
-      "pdf_url": "pdfs/cisco-360-partner-program-cafe-capability-acceleration-framework-for-enablement.pdf",
-      "text_url": "text/cisco-360-partner-program-cafe-capability-acceleration-framework-for-enablement.txt",
-      "type": "PDF",
-      "pages": 18,
-      "bytes": 331262,
-      "sha256": "dfc0796dc10f4bdb939a066407ae8e14555ef94f2c21ffaab6feb5b84c042202",
-      "modified": "2026-04-10T13:07:07.599527+00:00",
-      "text_extraction": {
-        "success": true,
-        "error": null
-      }
-    }
-  ]
+  "generated": "2026-11-20T15:09:01.575944+00:00",
+  "document_count": 0,
+  "documents": []
 }

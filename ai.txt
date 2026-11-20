@@ -7,28 +7,7 @@ Use library.json for structured metadata.
 Use the linked text_url for extracted document text.
 Use the linked pdf_url for the original PDF.
 
-Document count: 3
-Generated: 2026-11-20T15:04:25.871746+00:00
+Document count: 0
+Generated: 2026-11-20T15:09:01.575944+00:00
 
 ## Documents
-
-### 234test   Copy
-- ID: 234test-copy
-- Original filename: 234test - Copy.PDF
-- PDF: pdfs/234test-copy.pdf
-- Extracted text: text/234test-copy.txt
-- Pages: 18
-
-### 234test
-- ID: 234test
-- Original filename: 234test.PDF
-- PDF: pdfs/234test.pdf
-- Extracted text: text/234test.txt
-- Pages: 18
-
-### Cisco 360 Partner Program CAFE   Capability Acceleration Framework for Enablement
-- ID: cisco-360-partner-program-cafe-capability-acceleration-framework-for-enablement
-- Original filename: Cisco 360 Partner Program CAFE - Capability Acceleration Framework for Enablement.PDF
-- PDF: pdfs/cisco-360-partner-program-cafe-capability-acceleration-framework-for-enablement.pdf
-- Extracted text: text/cisco-360-partner-program-cafe-capability-acceleration-framework-for-enablement.txt
-- Pages: 18

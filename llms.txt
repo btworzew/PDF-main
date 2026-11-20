@@ -7,7 +7,7 @@ START HERE: use library.json (or api/documents.json) to enumerate every document
 Do not rely on search-engine indexing or directory browsing.
 For each document, fetch its extracted text_url for searchable text; use pdf_url for the original PDF.
 
-Document count: 3
+Document count: 0
 
 ## Machine-readable resources
 - Catalogue: https://btworzew.github.io/PDF/library.json
@@ -15,18 +15,3 @@ Document count: 3
 - AI guide: https://btworzew.github.io/PDF/ai.txt
 
 ## Documents
-
-### 234test   Copy
-- ID: 234test-copy
-- Text: https://btworzew.github.io/PDF/text/234test-copy.txt
-- PDF: https://btworzew.github.io/PDF/pdfs/234test-copy.pdf
-
-### 234test
-- ID: 234test
-- Text: https://btworzew.github.io/PDF/text/234test.txt
-- PDF: https://btworzew.github.io/PDF/pdfs/234test.pdf
-
-### Cisco 360 Partner Program CAFE   Capability Acceleration Framework for Enablement
-- ID: cisco-360-partner-program-cafe-capability-acceleration-framework-for-enablement
-- Text: https://btworzew.github.io/PDF/text/cisco-360-partner-program-cafe-capability-acceleration-framework-for-enablement.txt
-- PDF: https://btworzew.github.io/PDF/pdfs/cisco-360-partner-program-cafe-capability-acceleration-framework-for-enablement.pdf
