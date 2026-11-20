@@ -7,8 +7,8 @@ Use library.json for structured metadata.
 Use the linked text_url for extracted document text.
 Use the linked pdf_url for the original PDF.
 
-Document count: 1
-Generated: 2026-11-20T13:36:02.541010+00:00
+Document count: 2
+Generated: 2026-11-20T13:55:14.598730+00:00
 
 ## Documents
 
@@ -18,3 +18,10 @@ Generated: 2026-11-20T13:36:02.541010+00:00
 - PDF: pdfs/cisco-360-partner-program-cafe-capability-acceleration-framework-for-enablement.pdf
 - Extracted text: text/cisco-360-partner-program-cafe-capability-acceleration-framework-for-enablement.txt
 - Pages: 18
+
+### GSX FY27 Messaging Guide
+- ID: gsx-fy27-messaging-guide
+- Original filename: GSX FY27 Messaging Guide.pdf
+- PDF: pdfs/gsx-fy27-messaging-guide.pdf
+- Extracted text: text/gsx-fy27-messaging-guide.txt
+- Pages: 1

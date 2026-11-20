@@ -4,8 +4,8 @@
   "description": "A searchable collection of PDF knowledge resources.",
   "owner": "Your Organization",
   "site_url": "https://btworzew.github.io/PDF",
-  "generated": "2026-11-20T13:36:02.541010+00:00",
-  "document_count": 1,
+  "generated": "2026-11-20T13:55:14.598730+00:00",
+  "document_count": 2,
   "documents": [
     {
       "id": "cisco-360-partner-program-cafe-capability-acceleration-framework-for-enablement",
@@ -19,6 +19,23 @@
       "bytes": 331262,
       "sha256": "dfc0796dc10f4bdb939a066407ae8e14555ef94f2c21ffaab6feb5b84c042202",
       "modified": "2026-04-10T13:07:07.599527+00:00",
+      "text_extraction": {
+        "success": true,
+        "error": null
+      }
+    },
+    {
+      "id": "gsx-fy27-messaging-guide",
+      "title": "GSX FY27 Messaging Guide",
+      "original_filename": "GSX FY27 Messaging Guide.pdf",
+      "source_relative_path": "GSX FY27 Messaging Guide.pdf",
+      "pdf_url": "pdfs/gsx-fy27-messaging-guide.pdf",
+      "text_url": "text/gsx-fy27-messaging-guide.txt",
+      "type": "PDF",
+      "pages": 1,
+      "bytes": 70737,
+      "sha256": "fe2148d81d5f55c604d51d2078a39ee667601c526946077fc8e026bafd373351",
+      "modified": "2026-08-18T19:31:13.687279+00:00",
       "text_extraction": {
         "success": true,
         "error": null

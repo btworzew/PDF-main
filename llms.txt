@@ -7,7 +7,7 @@ START HERE: use library.json (or api/documents.json) to enumerate every document
 Do not rely on search-engine indexing or directory browsing.
 For each document, fetch its extracted text_url for searchable text; use pdf_url for the original PDF.
 
-Document count: 1
+Document count: 2
 
 ## Machine-readable resources
 - Catalogue: https://btworzew.github.io/PDF/library.json
@@ -20,3 +20,8 @@ Document count: 1
 - ID: cisco-360-partner-program-cafe-capability-acceleration-framework-for-enablement
 - Text: https://btworzew.github.io/PDF/text/cisco-360-partner-program-cafe-capability-acceleration-framework-for-enablement.txt
 - PDF: https://btworzew.github.io/PDF/pdfs/cisco-360-partner-program-cafe-capability-acceleration-framework-for-enablement.pdf
+
+### GSX FY27 Messaging Guide
+- ID: gsx-fy27-messaging-guide
+- Text: https://btworzew.github.io/PDF/text/gsx-fy27-messaging-guide.txt
+- PDF: https://btworzew.github.io/PDF/pdfs/gsx-fy27-messaging-guide.pdf
