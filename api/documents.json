@@ -4,7 +4,25 @@
   "description": "A searchable collection of PDF knowledge resources.",
   "owner": "Your Organization",
   "site_url": "https://btworzew.github.io/PDF",
-  "generated": "2026-11-20T15:09:01.575944+00:00",
-  "document_count": 0,
-  "documents": []
+  "generated": "2026-11-20T15:22:39.980596+00:00",
+  "document_count": 1,
+  "documents": [
+    {
+      "id": "testing",
+      "title": "testing",
+      "original_filename": "testing.pdf",
+      "source_relative_path": "testing.pdf",
+      "pdf_url": "pdfs/testing.pdf",
+      "text_url": "text/testing.txt",
+      "type": "PDF",
+      "pages": 1,
+      "bytes": 17219,
+      "sha256": "5a823803af0bb5088f09d0c69af83ebd044c591b1531e8f87af440a903a9de7b",
+      "modified": "2026-11-20T15:21:46.103104+00:00",
+      "text_extraction": {
+        "success": true,
+        "error": null
+      }
+    }
+  ]
 }

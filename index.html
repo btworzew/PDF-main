@@ -112,7 +112,7 @@ footer a { color: var(--accent); }
          placeholder="Search documents..."
          aria-label="Search documents">
   <div class="meta">
-    <span id="count">0</span> documents
+    <span id="count">1</span> documents
     &nbsp;·&nbsp;
     Machine-readable index:
     <a href="library.json">library.json</a>
@@ -122,11 +122,24 @@ footer a { color: var(--accent); }
   </div>
   <section id="grid" class="grid">
     
+        <article class="card"
+                 data-search="testing testing.pdf">
+          <div class="pdf-badge">PDF</div>
+          <div class="card-body">
+            <h2>testing</h2>
+            <p>testing.pdf</p>
+            <div class="actions">
+              <a href="pdfs/testing.pdf" target="_blank" rel="noopener">Open PDF</a>
+              <a href="text/testing.txt" target="_blank" rel="noopener">Text</a>
+            </div>
+          </div>
+        </article>
+        
   </section>
   <div id="empty">No documents match your search.</div>
 </main>
 <footer>
-  Generated 2026-11-20T15:09:01.575944+00:00.
+  Generated 2026-11-20T15:22:39.980596+00:00.
   
 </footer>
 <script>
